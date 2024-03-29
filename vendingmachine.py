@@ -1,0 +1,12 @@
+X=int(input("투입금액"))
+Y=int(input("가격"))
+money=(X-Y)
+y=int(money//1000)
+z=int((money%1000)//500)
+f=int((money%500)//100)
+g=int((money%100)//50)
+
+print('1000원:',y)
+print('500원:',z)
+print('100원:',f)
+print('50원:',g)
